@@ -17,3 +17,14 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 config/name="Slide Rush"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*uid://dvn3eqq2er8bv"
+
+[file_customization]
+
+folder_colors={
+"res://Scenes/": "purple",
+"res://Scripts/": "teal"
+}
