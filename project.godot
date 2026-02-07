@@ -21,10 +21,12 @@ config/icon="res://icon.svg"
 [autoload]
 
 GameManager="*uid://dvn3eqq2er8bv"
+ScoreManager="*uid://daaq3bkfvj7hm"
 
 [file_customization]
 
 folder_colors={
+"res://Global/": "blue",
 "res://Scenes/": "purple",
 "res://Scripts/": "teal"
 }
